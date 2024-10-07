@@ -77,6 +77,11 @@ export const SKILLS = [
     experience: "2+ years",
   },
   {
+    icon: <FaHtml5 className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Javascript",
+    experience: "1+ years",
+  },
+  {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
     experience: "1+ years",
@@ -99,7 +104,7 @@ export const SKILLS = [
   {
     icon: <FaGitAlt className="text-4xl text-red-600 lg:text-5xl" />,
     name: "Git",
-    experience: "2 year",
+    experience: "2+ year",
   },
 ];
 
