@@ -33,7 +33,7 @@ const Hero = () => {
                         src={angImage}
                         width={550}
                         height={550}
-                        alt="Carl Frank"
+                        alt="Angeles Orquera"
                         className="rounded-3xl" />
                 </div>
             </motion.div>

@@ -13,6 +13,8 @@ import projectImage3 from "../assets/project3.jpeg";
 import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
+import jsIcon from "../assets/jsIcon.svg";
+import tailwindIcon from "../assets/tailwindIcon.svg";
 
 import { FaHtml5 } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
@@ -20,6 +22,7 @@ import { SiRedux } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
@@ -35,7 +38,7 @@ export const HERO = {
   name: "ANGELES ORQUERA",
   greet: "Hello there! 👋🏻",
   description:
-    "I'm a full stack developer, passionate about technology and always looking to learn more. Currently, I'm involved in projects and honing my skills, ready to take on new challenges.",
+    "I'm a Front End developer, passionate about technology and always looking to learn more. Currently, I'm involved in projects and honing my skills, ready to take on new challenges.",
 };
 
 export const PROJECTS = [
@@ -77,7 +80,7 @@ export const SKILLS = [
     experience: "2+ years",
   },
   {
-    icon: <FaHtml5 className="text-4xl text-cyan-400 lg:text-5xl" />,
+    icon: <img src={jsIcon} className="w-10 h-10 text-cyan-400 lg:text-5xl" />,
     name: "Javascript",
     experience: "1+ years",
   },
@@ -106,15 +109,27 @@ export const SKILLS = [
     name: "Git",
     experience: "2+ year",
   },
+  {
+    icon: <img src={tailwindIcon} className="w-10 h-10 text-red-600 lg:text-5xl invert brightness-0" />,
+    name: "Tailwind CSS",
+    experience: "",
+  },
 ];
 
 export const EXPERIENCES = [
   {
-    title: "Administrativo contable",
+    title: "Accounting Administrator",
     company: "Indo Deli",
     duration: "March 2023 - August 2024",
     description:
       "I have managed data using spreadsheets and other tools, keeping up-to-date records and reports. I have also kept a tight control of invoices and used administrative systems and accounting software, such as Tango Software, to record, store, analyse and consult information. In addition, I have served clients and managed the tracking of collections and payments, making sure that all these processes were recorded and controlled efficiently.",
+  },
+  {
+    title: "Junior Front End Developer",
+    company: "OptiPixel - Sofia Chat",
+    duration: "February 2025 - June 2025",
+    description:
+      "Front-end development with a focus on React, TypeScript, and Tailwind CSS. Experience working from Figma designs to build modern, responsive interfaces aligned with the latest design releases. I have also participated in the visual enhancement of existing sites, making style adjustments, corrections, and partial redesigns to optimize the user experience. Experience in Git workflows, pull requests, and agile methodologies. A constant interest in learning best practices, maintaining clean code, and adding value from a junior perspective, with a strong desire to grow.",
   },
 ];
 
@@ -130,19 +145,11 @@ export const EDUCATION = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
+    href: "https://github.com/Angl098",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/angeles-orquera-4160ab231/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
